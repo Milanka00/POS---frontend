@@ -6,7 +6,7 @@ import AdminLogin from './Login';
 import PRoutes from './PackingSection/PRoutes';
 import DRoutes from './DeliverySection/DRoutes';
 import ARoutes from './AdminSection/ARoutes';
-import WRoutes from './warehouse/WRoutes';
+import WRoutes from './InventoryManagement/WRoutes';
 
 
 

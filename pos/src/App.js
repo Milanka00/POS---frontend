@@ -7,6 +7,7 @@ import PRoutes from './PackingSection/PRoutes';
 import DRoutes from './DeliverySection/DRoutes';
 import ARoutes from './AdminSection/ARoutes';
 import WRoutes from './InventoryManagement/WRoutes';
+import SignUp from './Sign up/signup';
 
 
 
@@ -18,6 +19,7 @@ function App() {
       
       <Routes>
       <Route path='/' element={<AdminLogin/>}/>
+      <Route path='/signup' element={<SignUp/>}></Route>
       </Routes>
       <PRoutes/>
       <DRoutes/>

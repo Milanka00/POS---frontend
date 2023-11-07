@@ -93,11 +93,11 @@ const SignUp = () => {
 <div className="bg-image-signup">
 
 
-<div className='form-container  '>
+<div className='form-container1  '>
 <div class="form-box1">
 <div class="form-value">
 <form onSubmit={handleSubmit}>
-                  <h2 className='mt-2 text-center'>SignUp</h2>
+                  <h2 className='h21 mt-2 text-center'>SignUp</h2>
 
                   <div class="inputbox">
                     <input type="text" value={firstName} onChange={(e) => setFirstName(e.target.value)} required />

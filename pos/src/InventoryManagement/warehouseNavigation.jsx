@@ -7,7 +7,7 @@ import { RiFileList3Fill } from "react-icons/ri";
 import { BsBoxArrowRight } from "react-icons/bs";
 
 import ItemDetails from "./itemsDetails";
-import IssueItems from "./IssueItems";
+import IssueItems from "./Orders";
 import AddItems from "./AddItems";
 
 
@@ -22,17 +22,17 @@ const WNavBar = ({}) => {
   const menuItem = [
     {
       path: "/AddItems",
-      name: "AddItems Home",
+      name: "Add Items",
       icon: <BsBagPlusFill />,
     },
     {
       path: "/ItemDetails",
-      name: "ItemDetails",
+      name: "Item Details",
       icon: <RiFileList3Fill />,
     },
     {
       path: "/IssueItems",
-      name: "IssueItems",
+      name: "New Orders",
       icon: <BsBoxArrowRight />,
     },
   ];
@@ -83,7 +83,7 @@ const WNavBar = ({}) => {
             className="main-content d-flex flex-column w-100 me-4 "
           >
             <div className="nametag w-100 p-3 m-2 shadow bg-light ">
-              <h1>Food Bank - Warehouse Section</h1>
+              <h1>Inventory Management</h1>
             </div>
             <div className="w-100 p-3 m-2">
               {/* conditional render */}

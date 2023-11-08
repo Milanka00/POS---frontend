@@ -3,7 +3,7 @@ import React from 'react';
 import { Route,Routes, BrowserRouter} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AdminLogin from './Login';
-import PRoutes from './PackingSection/PRoutes';
+import PRoutes from './CustomerSections/PRoutes';
 import DRoutes from './DeliverySection/DRoutes';
 import ARoutes from './AdminSection/ARoutes';
 import WRoutes from './InventoryManagement/WRoutes';

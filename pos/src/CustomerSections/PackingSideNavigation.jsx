@@ -12,8 +12,8 @@ import {CgExtensionRemove}from "react-icons/cg";
 
 import { NavLink, useLocation } from 'react-router-dom';
 import './PackingNavBar.css';
-import AddPackages from './AddPackages';
-import PackageIsues from './PackageIsuues';
+import AddPackages from './productList';
+import PackageIsues from './SelectedItems';
 import PackingHome from './PackingHome';
 
 const PNavBar = ({children}) => {

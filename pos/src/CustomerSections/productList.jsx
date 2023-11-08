@@ -8,14 +8,14 @@ const ProductList = () => {
   const products = [
     {
       id: 1,
-      imageSrc: 'path_to_image1',
+      imageSrc: '../Images/fruit1.jpg',
       altText: 'Item 1',
       title: 'Item 1 Title',
       description: 'Description for Item 1',
     },
     {
       id: 2,
-      imageSrc: 'path_to_image2',
+      imageSrc: '../Images/fruit2.jpg',
       altText: 'Item 2',
       title: 'Item 2 Title',
       description: 'Description for Item 2',
